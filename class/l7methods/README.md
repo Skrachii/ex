@@ -34,22 +34,27 @@ public class PrintBoxes {
 
 ### Упр. 2. 
 
-Следната програма има десетина грешки. Копирайте в IntelliJ, коригирайте и копирайте отдолу работещата програма и резултата от изпълнението и.
-
-```java
-public class LotsOfErrors {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-        message();
+Следната програма има десетина грешки. Копирайте в IntelliJ, коригирайте и изпълнете програмата.
+~~~
+public class LotsOf Errors {
+    public static main(String args) {
+        System.println(Hello, world!);
+        message()
     }
 
-    public static void message() {
-        System.out.println("This program surely cannot ");
-        System.out.println("have any \"errors\" in it");
+    public static void message {
+        System.out println("This program surely cannot ";
+        System.out.println("have any "errors" in it");
     }
-}
+~~~
 
-```
+Очакван резултат:
+~~~
+Hello, world!
+This program surely cannot 
+have any "errors" in it
+~~~
+
 
 ### Упр. 3. 
 Проследете изпълнението на следния код и напишете под линията какво мислите че ще се принтира на конзолата?
