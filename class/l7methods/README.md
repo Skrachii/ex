@@ -5,9 +5,9 @@
 * [Методи](https://docs.google.com/presentation/d/1Kq_p5I5QPulYe1NF6VgXq57QZwnnqrU5xqMcFwl_Sf0/edit#slide=id.p)
 
 ## Видео
-* [Цикли 1](https://photos.app.goo.gl/B98PxcxisWZ8p92B7)
-* [Цикли 2](https://photos.app.goo.gl/4ycaMAxu2JMfjTSE7)
-* [Методи 1](https://photos.app.goo.gl/vdJRKqP12fiDYUK36)
+* [Цикли 1](https://youtu.be/Q7XiGrfoPQo)
+* [Цикли 2](https://youtu.be/lBqryEM-rxo)
+* [Методи 1](https://youtu.be/DuPFHp3kgfw)
 
 ## Упражнения
 Упр. 1. Следната програма рисува две кутии. Оптимизирайте я, така че да няма повторение на код. Първоначално може да създадем метод, който да рисува кутия. След това може да разбием нещата дори повече, като направим отделни методи за рисуването на хоризонтална черта и страничните черти.
