@@ -2,6 +2,9 @@ package l6loops;
 
 import java.util.Scanner;
 
+/**
+ * Print a triangle of dollar signs.
+ */
 public class PrintTriangle {
     public static void main(String[] args) {
 

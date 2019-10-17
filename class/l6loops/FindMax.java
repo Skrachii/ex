@@ -1,5 +1,10 @@
 package l6loops;
 
+/**
+ * Let the user enter several numbers and print the
+ * maximum number.
+ */
+
 import java.util.Scanner;
 
 public class FindMax {
