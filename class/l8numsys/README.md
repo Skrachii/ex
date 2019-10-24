@@ -5,6 +5,7 @@
 * [Бройни системи](https://docs.google.com/presentation/d/1FhsbdUW2I6mnaFi-kv-fQwr4v-1QNvxSeuhVpzyOx98/edit?usp=sharing)
 
 ## Видео
+[Бройни системи 1](https://youtu.be/UobsVc3AESM)
 
 ## Упражнения
 
