@@ -82,3 +82,38 @@ A7
 ~~~
 12(10) = 14(8)
 ~~~
+
+### Упр. 8
+Напишете програма, която да приеме едно положително цяло число n между 0 и 15 и второ цяло число b между 0 и 3. Програмата трябва да отпечата числото n в двоична форма, след това да промени бита с номер b в противоположната му стойност. Ето пример за вход и изход:
+~~~
+0
+0
+Number before flip: 0
+Number after flip: 1
+
+0
+1
+Number before flip: 0
+Number after flip: 10
+
+0
+3
+Number before flip: 0
+Number after flip: 1000
+
+15
+0
+Number before flip: 1111
+Number after flip: 1110
+
+15
+2
+Number before flip: 1111
+Number after flip: 1011
+
+12
+1
+Number before flip: 1100
+Number after flip: 1110
+~~~
+Подсказка: Помислете коя от побитовите операции може да ви даде желания резултат.
