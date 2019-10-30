@@ -4,7 +4,7 @@ public class Demo_1 {
     public static void main(String[] args) {
         short a = 3; // 0000 0011 = 3
         short b = 5; // 0000 0101 = 5
-
+        boolean isBig = true;
         System.out.println( a | b); // 0000 0111 = 7
         System.out.println( a & b); // 0000 0001 = 1
         System.out.println( a ^ b); // 0000 0110 = 6

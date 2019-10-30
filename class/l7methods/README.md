@@ -165,23 +165,24 @@ public class LocalChange {
 ### Упр. 9. 
 Следната програма има 9 грешки. Коригирайте ги, така че да постигнете желания резултат по-долу.
 
-```java
+~~~
 public class Oops3 {
-    public static void main(String[] args) {
+    public static void main() {
         double bubble = 867.5309;
         double x = 10.01;
-        printer(x, 8.0);
-        printer(x, bubble);
-        System.out.println("The value from main is: " + bubble);
-        int z = 5;
+        printer(double x, double y);
+        printer(x);
+        printer("barack", "obama");
         System.out.println("z = " + z);
     }
 
-    public static void printer(double x, double y) {
-        System.out.println("x = " + x + " and y = " + y);
+    public static void printer(x, y double) {
+        int z = 5;
+        System.out.println("x = " + double x + " and y = " + y);
+        System.out.println("The value from main is: " + bubble);
     }
 }
-```
+~~~
 ~~~
 Желан резултат:
 
