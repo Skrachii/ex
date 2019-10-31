@@ -1,0 +1,49 @@
+package l9arrays;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Ex1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter days:");
+        int days = Integer.parseInt(scanner.nextLine());
+
+        int[] allTemp = readTemps(days, scanner);
+        double average = getAverage(days, allTemp, scanner);
+        int numHighDays = getHigherTempDays(allTemp, average);
+
+        System.out.println("Average temperature: " + average);
+        System.out.printf("There were %d days higher than average.", numHighDays);
+    }
+
+    public static int getHigherTempDays(int[] temps, double average) {
+        int counter = 0;
+        for (int i = 0; i < temps.length; i++) {
+            if (temps[i] > average) {
+                counter = counter + 1;
+            }
+        }
+        return counter;
+    }
+
+    public static int[] readTemps(int n, Scanner scanner) {
+        int[] temps = new int[n];
+        for (int i = 0; i < n; i++) {
+            System.out.printf("Day %d's high temp: ", i + 1);
+            temps[i] = Integer.parseInt(scanner.nextLine());
+        }
+        System.out.println(Arrays.toString(temps));
+        return temps;
+    }
+
+    public static double getAverage(int n, int[] temps, Scanner scanner) {
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum = sum + temps[i];
+        }
+        //System.out.println(sum);
+        return (double) sum / n;
+    }
+
+}
