@@ -6,15 +6,20 @@ import java.util.Scanner;
 public class Ex1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter days:");
-        int days = Integer.parseInt(scanner.nextLine());
 
+        int days = getNumberOfDays(scanner);
         int[] allTemp = readTemps(days, scanner);
         double average = getAverage(days, allTemp, scanner);
         int numHighDays = getHigherTempDays(allTemp, average);
 
-        System.out.println("Average temperature: " + average);
+        System.out.printf("Average temperature: %.2f", average);
         System.out.printf("There were %d days higher than average.", numHighDays);
+    }
+
+
+    public static int getNumberOfDays(Scanner scanner) {
+        System.out.print("Enter days:");
+        return Integer.parseInt(scanner.nextLine());
     }
 
     public static int getHigherTempDays(int[] temps, double average) {
