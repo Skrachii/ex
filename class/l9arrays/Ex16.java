@@ -1,6 +1,5 @@
 package l9arrays;
 
-import javax.imageio.metadata.IIOMetadataFormatImpl;
 import java.util.Arrays;
 import java.util.Scanner;
 
