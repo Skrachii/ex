@@ -7,6 +7,7 @@
 * [Масиви 1](https://youtu.be/xvoWKqYKTOw)
 * [Масиви 2](https://youtu.be/d6UoTKkTykE)
 * [Масиви 3](https://youtu.be/j_0cI_DTD_o)
+* [Масиви 4](https://youtu.be/fQwEBy0xzb0)
 
 ## Упражнения
 
