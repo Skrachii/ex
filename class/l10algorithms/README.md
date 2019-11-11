@@ -1,6 +1,7 @@
 # Алгоритми
 
 ## Презентации
+* [Алгоритми](https://docs.google.com/presentation/d/1dmXEy40qwlX59HFWfZVeAX3LrM8GFvquCrjYyEANyVo/edit#slide=id.g65b63307f1_0_19)
 
 ## Видео
 
