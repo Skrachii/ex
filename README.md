@@ -10,4 +10,4 @@
 
 [10. Алгоритми](class/l10algorithms/README.md)
 
-[Подготовка за Тест 1]
+[Подготовка за Тест 1](class/testPrep/README.md)
