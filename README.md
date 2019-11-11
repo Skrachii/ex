@@ -9,3 +9,5 @@
 [9. Масиви](class/l9arrays/README.md)
 
 [10. Алгоритми](class/l10algorithms/README.md)
+
+[Подготовка за Тест 1]
