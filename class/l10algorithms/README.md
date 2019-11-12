@@ -4,6 +4,8 @@
 * [Алгоритми](https://docs.google.com/presentation/d/1dmXEy40qwlX59HFWfZVeAX3LrM8GFvquCrjYyEANyVo/edit#slide=id.g65b63307f1_0_19)
 
 ## Видео
+* [Рекурсия 1](https://youtu.be/Xa-1gx0WY2s)
+* [Рекурсия 2](https://youtu.be/LOJ6fiJPIJM)
 
 ## Упражнения
 
