@@ -6,6 +6,7 @@
 ## Видео
 * [Рекурсия 1](https://youtu.be/Xa-1gx0WY2s)
 * [Рекурсия 2](https://youtu.be/LOJ6fiJPIJM)
+* [Търсене 1](https://youtu.be/yzQ6Ul7pLZA)
 
 ## Упражнения
 
