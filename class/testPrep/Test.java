@@ -1,5 +1,7 @@
 package testPrep;
 
+import java.util.Random;
+
 public class Test {
     public static void main(String[] args) {
         //switchExample();
@@ -8,7 +10,10 @@ public class Test {
         //intDivisionExample();
         //forExample();
         //doWhileExample();
-        passByValue();
+        //passByValue();
+
+//        String w = "world";
+//        System.out.printf("I am one of the %d greatest coders in the %s", 5, w);
     }
 
     public static void doWhileExample() {
@@ -76,7 +81,7 @@ public class Test {
         int a = 5;
         int b = 6;
         swap(a,b);
-        System.out.printf("%d, %d", 5, 6);
+        System.out.printf("%d, %d", a, b);
     }
 
     public static void swap(int a, int b){
