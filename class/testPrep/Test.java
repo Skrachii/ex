@@ -5,7 +5,7 @@ import java.util.Random;
 public class Test {
     public static void main(String[] args) {
         //switchExample();
-        //booleanExample();
+        booleanExample();
         //ifExample();
         //intDivisionExample();
         //forExample();
@@ -59,7 +59,7 @@ public class Test {
     public static void booleanExample() {
         boolean a = true;
         boolean b = false;
-        boolean c = (a || b) && (a || b);
+        boolean c = a && (a || b);
 
         System.out.println(c);
     }
