@@ -1,9 +1,6 @@
 # Подготовка за тестове
 
 ## Тест 1
-* [Тест 1](https://docs.google.com/forms/d/e/1FAIpQLSdS9g9PBcTlGb06ksXeeH8MbHGRGaep18QFpTPJJmaVspMVhg/viewform)
-* [Задача към тест 1](https://docs.google.com/forms/d/e/1FAIpQLSdDt33GWMA3vtQp0vv7xROpObwNuJiY3Jcmot5yL6XFaUmNew/viewform)
-
 
 ### Онлайн тестове:
 * [Типове данни](https://docs.google.com/forms/d/e/1FAIpQLSfIqqrsFhmklRvKAsvD87x0dLHi4UYj3wRR5j1YPkHtw89v6A/viewform)
