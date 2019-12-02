@@ -4,6 +4,8 @@
 * [Класове](https://docs.google.com/presentation/d/1LZy7IJKDawJEKAIZQA8ANrdJ0VTD5IJsZ6ZqFupYZUQ/edit?usp=sharing)
 
 ## Видео
+* [ООП 1](https://youtu.be/04m3URpkVQI)
+* [ООП 2](https://youtu.be/gsLsLKqjgTs)
 
 ## Упражнения
 

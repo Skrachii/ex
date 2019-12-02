@@ -8,6 +8,7 @@
 * [Рекурсия 2](https://youtu.be/LOJ6fiJPIJM)
 * [Търсене 1](https://youtu.be/yzQ6Ul7pLZA)
 * [Търсене 2](https://youtu.be/a5oGd4gANvU)
+* [Рекурсия 3](https://youtu.be/04m3URpkVQI)
 
 ## Упражнения
 
