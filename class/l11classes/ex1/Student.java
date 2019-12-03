@@ -1,6 +1,6 @@
 package l11classes.ex1;
 
-public class Student {
+class Student {
 
     private static int count = 0;
 
@@ -15,19 +15,46 @@ public class Student {
         count++;   // the same as count = count + 1;  count += 1;
         fn = "FN" + count;
         status = Status.Freshman;
-        if( status == Status.Freshman ){
-
-        }
     }
 
     public Student(){
         this("Unnamed");
     }
 
+
     public Student(String name, int age, double gpa){
         this(name);
         this.age = age;
         this.gpa = gpa;
+    }
+
+    public boolean progress(){
+        boolean result = true;
+        switch (status){
+            case Freshman:
+                status = Status.Sophomore;
+                break;
+            case Sophomore:
+                status = Status.Junior;
+                break;
+            case Junior:
+                status = Status.Senior;
+                break;
+            case Senior:
+                status = Status.BS;
+                break;
+            case BS:
+                result = false;
+        }
+        return result;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
     }
 
     public String getFn() {
@@ -39,7 +66,8 @@ public class Student {
     }
 
     public String toString(){
-        return String.format("Student: fn=%s, name = %s, age = %d, gpa = %.2f", fn, name, age, gpa);
+        return String.format("Student: fn=%s, name = %s, age = %d, gpa = %.2f , status=%s",
+                fn, name, age, gpa , status);
     }
 
     public int getAge() {

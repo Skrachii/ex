@@ -6,6 +6,8 @@
 ## Видео
 * [ООП 1](https://youtu.be/04m3URpkVQI)
 * [ООП 2](https://youtu.be/gsLsLKqjgTs)
+* [ООП 3](https://youtu.be/Eibn5Mj83-k)
+* [ООП 4](https://youtu.be/ewDcopIIKT4)
 
 ## Упражнения
 
