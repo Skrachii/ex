@@ -8,6 +8,8 @@
 * [ООП 2](https://youtu.be/gsLsLKqjgTs)
 * [ООП 3](https://youtu.be/Eibn5Mj83-k)
 * [ООП 4](https://youtu.be/ewDcopIIKT4)
+* [ООП 5](https://youtu.be/gELKt6UawoI)
+* [ООП 6](https://youtu.be/Ua8xtJGhNgk)
 
 ## Упражнения
 
