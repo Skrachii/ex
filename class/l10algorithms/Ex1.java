@@ -1,5 +1,7 @@
 package l10algorithms;
 
+import l11classes.ex1.Student;
+
 public class Ex1 {
     public static void main(String[] args) {
         printStars(40);
@@ -14,4 +16,5 @@ public class Ex1 {
             printStars(n - 1);
         }
     }
+
 }

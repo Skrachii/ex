@@ -9,7 +9,6 @@ public class Ex7 {
         //Scanner scanner = new Scanner(System.in);
         //int[] arr = randomArray(Integer.parseInt(scanner.nextLine()), Integer.parseInt(scanner.nextLine()), Integer.parseInt(scanner.nextLine())) ;
         int[] arr = randomArray(10_000_000, -1_000_000, 1_000_000);
-
         long start = System.currentTimeMillis();
         System.out.printf("Search returned %d\n", search(100_000, arr));
         long end = System.currentTimeMillis();
@@ -18,7 +17,7 @@ public class Ex7 {
         System.out.println();
 
         start = System.currentTimeMillis();
-        Arrays.sort(arr);
+        Arrays.sort (arr);
         end = System.currentTimeMillis();
         System.out.printf("Sorting time: %d\n", end - start);
 

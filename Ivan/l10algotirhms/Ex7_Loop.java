@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Ex7_Loop {
     public static void main(String[] args) {
-        int[] arr = randomArray(10_000_00,-1_000_00,1_000_00 );
+        int[] arr = randomArray(10_000_000,-1_000_000,1_000_000 );
 
         long start = System.currentTimeMillis();
         Arrays.sort(arr);
@@ -26,12 +26,10 @@ public class Ex7_Loop {
     public static int binarySearch(int value, int[] array) {
         int start = 0;
         int end = array.length - 1;
-        int count = 0;
-        while (start <= end) {
-            count++;
-            int mid = (start + end) / 2;
+
+        for (int i = 0; i < array.length; i++) {
+            int mid = end / 2;
             if (array[mid] == value) {
-                System.out.println("Number of iterations: " + count);
                 return mid;
             }
             if (value < array[mid]) {
@@ -40,8 +38,7 @@ public class Ex7_Loop {
             else if (value > array[mid]) {
                 start = mid + 1;
             }
-        }
-        System.out.println("Number of iterations: " + count);
+            }
         return -1;
     }
     public static int[] randomArray(int size, int min, int max){

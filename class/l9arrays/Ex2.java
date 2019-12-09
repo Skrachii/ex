@@ -10,6 +10,7 @@ public class Ex2 {
         System.out.println(Arrays.toString(arr));
     }
 
+
     public static void swap(int[] a, int i, int j){
         int temp = a[i];
         a[i] = a[j];
