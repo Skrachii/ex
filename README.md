@@ -13,3 +13,5 @@
 [Подготовка за Тест 1](class/testPrep/README.md)
 
 [11 Класове](class/l11classes/README.md)
+
+[12 Наследяване](class/l12inheritance/README.md)
