@@ -54,6 +54,45 @@ public class Bank {
         ba.deposit(amount);
     }
 
+    public boolean withdraw(double amount, String id){
+        BankAccount ba = getAccountForId(id);
+        return ba.withdraw(amount);
+    }
+
+    public boolean transfer( double amount, String fromId, String toId){
+        BankAccount fromBA = getAccountForId(fromId);
+        BankAccount toBA = getAccountForId(toId);
+        return fromBA.transfer(amount,toBA);
+    }
+
+    public double getTotalBankBalance(){
+        double total= 0;
+        for (BankAccount ba : accounts) {
+            total = total + ba.getBalance();
+        }
+        return total;
+    }
+
+    public double getAverageAccountBalance(){
+        return getTotalBankBalance()/accounts.size();
+    }
+
+    public int getTotalNumberOfTransactions(){
+        int trans=0;
+        for (BankAccount ba: accounts) {
+            trans+=ba.getNumTransactions();
+        }
+        return trans;
+    }
+
+    public void applyMonthlyFee(){
+        for (BankAccount ba : accounts) {
+            ba.applyMonthlyFees();
+        }
+    }
+
+
+
     private BankAccount getAccountForId(String id){
         BankAccount result = null;
         for( BankAccount ba : accounts){

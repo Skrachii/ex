@@ -1,4 +1,4 @@
-package l11classes.Ex5;
+package ivan.l11.Ex5;
 
 import java.util.ArrayList;
 
@@ -43,7 +43,7 @@ public class Bank {
         String result = "";
         for (BankAccount ba: accounts) {
             result = result + ba.toString() + "\n";
-            
+
         }
         return result;
     }

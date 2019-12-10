@@ -1,4 +1,4 @@
-package l11classes;
+package ivan.l11;
 
 public class Ex4 {
 

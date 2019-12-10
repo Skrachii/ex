@@ -1,4 +1,4 @@
-package l11classes.Ex5;
+package ivan.l11.Ex5;
 
 public class Ex5 {
     public static void main(String[] args) {
