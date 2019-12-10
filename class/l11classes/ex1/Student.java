@@ -1,6 +1,8 @@
 package l11classes.ex1;
 
-class Student {
+import java.io.Serializable;
+
+class Student{
 
     private static int count = 0;
 
