@@ -3,8 +3,9 @@ package testPrep;
 import java.util.Random;
 
 public class Test {
+
     public static void main(String[] args) {
-        //switchExample();
+        //switchExample()
         booleanExample();
         //ifExample();
         //intDivisionExample();
