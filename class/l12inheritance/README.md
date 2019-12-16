@@ -6,6 +6,8 @@
 ## Видео
 * [Наследяване 1](https://youtu.be/hlXon7_7Lms)
 * [Наследяване 2](https://youtu.be/r1kUNPrMLSY)
+* [Наследяване 3](https://youtu.be/k-Keo65nJEU)
+* [Наследяване 4](https://youtu.be/brAMYDrCv2A)
 
 ## Упражнения
  

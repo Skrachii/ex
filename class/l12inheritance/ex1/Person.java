@@ -1,6 +1,6 @@
 package l12inheritance.ex1;
 
-public class Person {
+public class Person implements Comparable<Person>{
     private String id;
     private String firstName;
     private String familyName;
@@ -52,6 +52,22 @@ public class Person {
 
     public void setFamilyName(String familyName) {
         this.familyName = familyName;
+    }
+
+    @Override
+    public String toString() {
+        return personalDetails();
+    }
+
+    @Override
+    public int compareTo(Person o) {
+        int firstNameCompare = firstName.compareTo(o.firstName);
+        if( firstNameCompare != 0 ) {
+            return firstNameCompare;
+        }
+        else{
+            return familyName.compareTo(o.familyName);
+        }
     }
 }
 
