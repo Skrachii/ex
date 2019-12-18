@@ -1,6 +1,7 @@
 package l12inheritance.ex5;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ShapeInventory {
 
@@ -11,6 +12,7 @@ public class ShapeInventory {
     }
 
     public void displayInventory(){
+        Collections.sort(inventory);
         for ( Shape s : inventory) {
             System.out.println(s.shapeDetails());
         }

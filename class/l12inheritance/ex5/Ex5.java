@@ -7,7 +7,11 @@ public class Ex5 {
         inventory.add(new Rectangle(5, 4));
         inventory.add(new Rectangle(3,2));
         inventory.add(new Rectangle(6,7));
+        inventory.add(new Circle(2));
+        inventory.add(new Circle(10));
+        inventory.add(new Circle(5));
 
         inventory.displayInventory();
+
     }
 }

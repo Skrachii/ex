@@ -1,6 +1,6 @@
 package l12inheritance.ex5;
 
-public class Rectangle implements Shape {
+public class Rectangle extends AbstractShape {
     private double width;
     private double height;
 

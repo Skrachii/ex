@@ -9,7 +9,7 @@ import java.util.Collections;
 
 public class Ex4 {
     public static void main(String[] args) {
-        ArrayList<Person> listForSorting = new ArrayList<>();
+        ArrayList<Comparable> listForSorting = new ArrayList<>();
         Person pesho = new Person("Pesho", "Peshev");
         Person gosho = new Student("Gosho", "Goshev",3.2);
         listForSorting.add(pesho);
