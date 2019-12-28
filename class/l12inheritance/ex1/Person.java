@@ -14,7 +14,7 @@ public class Person implements Comparable<Person>{
     }
 
     public String personalDetails (){
-        return String.format("id: %s; Name: %s %s",id, firstName, familyName);
+                return String.format("id: %s; Name: %s %s",id, firstName, familyName);
     }
 
     @Override
