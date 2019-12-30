@@ -1,6 +1,6 @@
 package emil.l3Conditionals;
 
-public class ex8 {
+public class Ex8 {
     public static void main(String[] args) {
         int a1 = 8;
 
