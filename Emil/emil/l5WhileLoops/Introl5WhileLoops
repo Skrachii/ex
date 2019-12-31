@@ -1,0 +1,18 @@
+                                        WHILE LOOPS.
+    Синтаксиса на WHILE loop е
+    WHILE (test) {
+        statement(s);       Изпълняваме тялото докато логическата проверка е TRUE!
+    }
+
+        While(True) {           for (;;) {
+        Безкраен loop            Безкраен   loop
+        }                       {
+
+
+        sum = sum + n; е същото като  sum += n;
+
+        ------------------------------------------------------------------------------------------
+                                Генериране на случайни числа.
+
+                Random random = new Random();
+                int randomNumber = random.nextInt(10);   // 0-9 ----> random.nextInt генерира числата от 0 до 9
