@@ -3,7 +3,7 @@ package emil.l7methods;
 //2-This is mess2.
 //3-This is mess1.
 //4-Done with mess2.
-//5-Dome with main.
+//5-Done with main.
 
 public class Ex3 {
 

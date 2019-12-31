@@ -10,7 +10,7 @@ public class Days {
         SATURDAY(6, "Събота"),
         SUNDAY(7, "Неделя");
 
-        Day(int num) {
+        Day(int num, String понеделник) {
             this.num = num;
         }
         private int num;

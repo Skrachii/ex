@@ -23,6 +23,7 @@ public class Ex1 {
     public static void printBody(){
         System.out.println("|            |");
         System.out.println("|            |");
+        System.out.println("|            |");
     }
 
 }
