@@ -7,7 +7,12 @@ public class Ex6 {
 
     public static void main(String[] args) {
         Random random = new Random();
+            int n = 0;
+            int m = 0;
 
+            while () {
+                System.out.println(n + random.nextInt(m - n + 1));
+            }
 
     }
 }
