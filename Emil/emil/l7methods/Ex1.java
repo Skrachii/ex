@@ -1,6 +1,5 @@
 package emil.l7methods;
 //  Създаване на кутия чрез Методи!
-import java.sql.SQLOutput;
 
 public class Ex1 {
 

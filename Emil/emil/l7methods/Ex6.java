@@ -10,7 +10,7 @@ public class Ex6 {
              System.out.println(" Im am a great coder! ");
              System.out.println(" Im am a great coder! ");
 
-             System.out.println(      );
+             System.out.println();
              System.out.println(" I am the greatest coder! ");
              System.out.println(" I am the greatest coder! ");
              System.out.println(" I am the greatest coder! ");
