@@ -1,4 +1,4 @@
-package emil.l6LoopProblems;
+package emil.l6Loops;
 //1.Напишете програма, която чете от конзолата поредица от цели числа и отпечатва най-малкото и най-голямото от тях.
 import java.util.Scanner;
 
