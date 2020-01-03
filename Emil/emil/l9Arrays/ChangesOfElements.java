@@ -1,4 +1,4 @@
-package l9Arrays;
+package emil.l9Arrays;
 
 public class ChangesOfElements {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package l9Arrays;
+package emil.l9Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
