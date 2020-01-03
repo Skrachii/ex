@@ -1,4 +1,4 @@
-package emil.l7methods;
+package emil.l7Methods;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package emil.l7methods;
+package emil.l7Methods;
 // Correct Errors!
 
 public class Ex2 {

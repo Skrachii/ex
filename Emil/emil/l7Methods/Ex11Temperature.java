@@ -1,4 +1,4 @@
-package emil.l7methods;
+package emil.l7Methods;
 
 public class Ex11Temperature {
     public static void main(String[] args) {
