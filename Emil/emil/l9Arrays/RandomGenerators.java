@@ -1,4 +1,4 @@
-package l9arrays;
+package emil.l9Arrays;
 
 import java.util.Random;
 

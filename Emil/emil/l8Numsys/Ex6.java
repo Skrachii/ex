@@ -1,4 +1,4 @@
-package emil.l8numsys;
+package emil.l8Numsys;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package emil.l8numsys;
+package emil.l8Numsys;
 
 public class Ex2 {
     public static void main(String[] args) {
