@@ -21,7 +21,9 @@ public class Ex1 {
 
     public static void readFile() throws FileNotFoundException {
         File data = new File("data.txt");
+
         Scanner fileScanner = new Scanner(data);
+
 //        for (int i = 0; i < 8; i++) {
         while (fileScanner.hasNextLine()){
             System.out.println(fileScanner.nextLine());

@@ -2,8 +2,8 @@ package emil.l5WhileLoops;
 // Да се напише програма, която приема числа от потребителя, докато той въведе -1.
 // Тогава програмата отпечатва сумата на въведените числа.
 
-import javafx.scene.ImageCursor;
-import javafx.scene.transform.Scale;
+//import javafx.scene.ImageCursor;
+//import javafx.scene.transform.Scale;
 
 import java.util.Scanner;
 
