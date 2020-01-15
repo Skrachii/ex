@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 
 public class Demo_1 {
     public static void main(String[] args) {
-        HashMap<String, String> phonebook = new HashMap<>();
+        HashMap<String, String> phonebook = new LinkedHashMap<>();
         phonebook.put("Ivan", "1111111111");
         phonebook.put("Stefan", "2222222222");
         phonebook.put("Emil", "3333333333");
