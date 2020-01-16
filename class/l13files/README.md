@@ -7,9 +7,6 @@
 * [Files 1](https://youtu.be/OjihN8WPkIk)
 * [Files 2](https://youtu.be/0AgRptU5Lzo)
 * [Files 3](https://youtu.be/gGnzN-1NlXQ)
-* [HashMap 1](https://youtu.be/OuqFFbmU_Bk)
-* [HashMap 2](https://youtu.be/-RdCD43OZqM)
-* [HashMap 3](https://youtu.be/kQU8U6i1a6U)
 
 ## Упражнения
 
