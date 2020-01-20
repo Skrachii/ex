@@ -10,7 +10,6 @@
 
 [10. Алгоритми](class/l10algorithms/README.md)
 
-[Подготовка за Тест 1](class/testPrep/README.md)
 
 [11 Класове](class/l11classes/README.md)
 
@@ -19,3 +18,4 @@
 [13 Работа с файлове](class/l13files/README.md)
 
 [14 Java Collections Framework](class/l14collections/README.md)
+[Тестoве](class/testPrep/README.md)
