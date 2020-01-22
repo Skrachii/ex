@@ -19,4 +19,6 @@
 
 [14 Java Collections Framework](class/l14collections/README.md)
 
+[15 Допълнителни теми](https://youtu.be/wVknH1iLthM)
+
 [Тестoве](class/testPrep/README.md)

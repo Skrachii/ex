@@ -9,7 +9,7 @@
 * [HashMap 3](https://youtu.be/kQU8U6i1a6U)
 * [Collections 1](https://youtu.be/Q47v6WAF4po)
 * [Collections 2](https://youtu.be/YqyRs8BROJo)
-
+* 
 ## Упражнения
 
 ### Упр. 1
