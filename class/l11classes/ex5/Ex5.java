@@ -23,6 +23,7 @@ public class Ex5 {
         superBankBG.deposit(50, idGosho);
         superBankBG.deposit(80, idSasho);
         superBankBG.withdraw(15, idPesho);
+        superBankBG.withdraw(49,idGosho);
         superBankBG.transfer(4.99, idPesho, idGosho);
         System.out.println(superBankBG.getTotalNumberOfTransactions());
         System.out.println(superBankBG.getTotalBankBalance());

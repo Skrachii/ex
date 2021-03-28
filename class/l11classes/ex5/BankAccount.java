@@ -13,7 +13,7 @@ public class BankAccount {
         id = "SBBG" + String.format("%06d",counter);
     }
     public void deposit(double amount){
-         balance = balance + amount;
+             balance = balance + amount;
          numTransactions++;
     }
     public boolean withdraw(double amount){

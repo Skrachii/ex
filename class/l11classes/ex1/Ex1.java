@@ -22,7 +22,7 @@ public class Ex1 {
     public static void generateStudentArray(){
         Student[] students = new Student[5];
         students[0] = new Student("Johny", 15, 4.0);
-        students[1] = new Student("traicho");
+        students[1] = new Student("traicho",7, 4.3);
         students[2] = new Student("asen");
         students[3] = new Student("kiro");
         students[4] = new Student("ivan");

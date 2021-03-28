@@ -2,7 +2,7 @@ package Udemy;
 
 public class KBtoMB {
     public static void main(String[] args) {
-    PrintMegaBytesAndKiloBytes(1025);
+    PrintMegaBytesAndKiloBytes(10250);
     }
 
     public static int ToMB(int KiloBytes) {

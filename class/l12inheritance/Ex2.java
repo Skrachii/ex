@@ -13,6 +13,7 @@ public class Ex2 {
         people.add(pesho);
         people.add(new Student("Gosho", "Goshev",3.2));
         people.add(new Worker("Tosho","Toshev",12 , 10 ));
+        people.add(new Worker("Atanas","Atanasov",12,7.8));
 
         for (Person p:people) {
             System.out.println(p.personalDetails());
@@ -25,7 +26,9 @@ public class Ex2 {
 //            }
         }
         people.remove(new Person("Pesho", "Peshev"));
+        System.out.println();
         System.out.println("After removing Pesho");
+        System.out.println();
         for (Person p:people) {
             System.out.println(p.personalDetails());
         }

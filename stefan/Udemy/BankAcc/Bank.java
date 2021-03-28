@@ -8,6 +8,7 @@ public class Bank {
     private int PhoneNumber;
 
     public Bank(String AccNum, float balance, String CustomerName, String Email, int PhoneNumber){
+       // this("1",0,"Default","Default",000000000);  //когато конструкторът ми е празен се задават по default тези параметри
         this.AccNum=AccNum;
         this.balance=balance;
         this.CustomerName=CustomerName;

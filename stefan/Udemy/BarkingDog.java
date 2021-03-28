@@ -2,7 +2,7 @@ package Udemy;
 
 public class BarkingDog {
     public static void main(String[] args) {
-        System.out.println(ShouldWakeUp(false, 1));
+        System.out.println(ShouldWakeUp(false, 23));
     }
 
     public static boolean ShouldWakeUp(boolean barking, int HourOfDay) {

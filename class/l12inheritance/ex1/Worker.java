@@ -5,12 +5,18 @@ public class Worker extends Person{
     private double workHours;
     private double dailyWage;
 
-    public Worker(String firstName, String familyName ,
-                  double workHours , double dailyWage) {
+    public Worker (String firstName, String familyName, double workHours, double dailyWage){
         super(firstName, familyName);
-        this.workHours = workHours;
-        this.dailyWage = dailyWage;
+        this.workHours=workHours;
+        this.dailyWage=dailyWage;
     }
+
+//    public Worker(String firstName, String familyName ,
+//                  double workHours , double dailyWage) {
+//        super(firstName, familyName);
+//        this.workHours = workHours;
+//        this.dailyWage = dailyWage;
+//    }
 
     @Override
     public String personalDetails() {
@@ -21,6 +27,8 @@ public class Worker extends Person{
     }
 
     public double getHourlyWage(){
+//        double hourlyWage=dailyWage/workHours;
+//        return hourlyWage;
         return dailyWage/workHours;
     }
 
@@ -36,7 +44,7 @@ public class Worker extends Person{
         return dailyWage;
     }
 
-    public void setDailyWage(double dailyWage) {
+    public void setDailyWage(double dailyWage)   {
         this.dailyWage = dailyWage;
     }
 }
