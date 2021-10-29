@@ -10,5 +10,18 @@ public class Main {
         Customer1.deposit(20);
         Customer1.withdrawal(19);
         Customer1.withdrawal(102 );
+
+        VIPcustomer vip1 = new VIPcustomer("Ivan","Ivanov",2000);
+        System.out.println(vip1.getName());
+
+        VIPcustomer vip2 = new VIPcustomer();
+        System.out.println(vip2.getName());
+        System.out.println(vip2.getEmail());
+        System.out.println(vip2.getCreditLimit());
+
+        VIPcustomer vip3 = new VIPcustomer("Tosho","abv@abv.bg");
+        System.out.println(vip3.getName());
+        System.out.println(vip3.getEmail());
+        System.out.println(vip3.getCreditLimit());
     }
 }

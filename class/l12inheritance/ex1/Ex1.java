@@ -10,7 +10,7 @@ public class Ex1 {
 
 
 
-        System.out.println((Worker) p.getWorkHours);
+     //   System.out.println((Worker) p.getWorkHours);
     }
 
 }

@@ -7,8 +7,6 @@ public class Circle extends AbstractShape {
         this.radius=radius;
     }
 
-
-
     @Override
     public double calculatePerimeter() {
         return 2*Math.PI*radius;
